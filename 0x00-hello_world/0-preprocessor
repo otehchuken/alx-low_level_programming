@@ -1,0 +1,7 @@
+#!/bin/bash
+gcc -E -o c >> 0-preprocessor
+
+echo gcc -E -o c >> 0-preprocessor
+
+echo gcc $CFILE -E -o c
+gcc $CFILE -E -o c
